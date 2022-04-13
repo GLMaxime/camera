@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override // fonction déclaré apres remplace une autre qui porte le meme nom
             public void onClick(View view) { //methode déclaré
                 Intent open_camera = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);// ouvrir la photo
-                startActivityForResult(open_camera, 100); //prendre la photo
+                startActivityForResult(open_camera, 100); //prendre la photos
 
             }
             });
